@@ -47,6 +47,8 @@ h2 {
   color: #222; /* heading visible on light background */
   margin-bottom: 20px;
   font-weight: 600;
+  border-bottom: 3px solid #cce0ff; /* soft light blue, noticeable but gentle */
+  padding-bottom: 10px;
 }
 
 p {
