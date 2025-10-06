@@ -1,60 +1,86 @@
-/* Body */
+/* 🌈 Creative Multi-Pastel Portfolio */
+
 body {
-  background-color: #fcfcfc; /* soft light */
-  color: #444; /* dark gray text */
   font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+  color: #222;
   margin: 0;
   padding: 0;
 }
 
-/* Sections / Cards */
-section, .card {
-  background-color: #ffffff; /* white sections/cards */
-  padding: 40px;
-  border-radius: 14px;
-  box-shadow: 0 6px 25px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+/* Header */
+header {
+  background-color: #c8a2c8; /* lilac */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-section:hover, .card:hover {
+header h1 { font-size: 36px; margin: 0; }
+header p { font-size: 18px; margin-top: 10px; color: #f5f5f5; }
+
+nav { margin-top: 20px; }
+nav a { color: #fff; margin: 0 15px; font-weight: 500; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+
+/* Sections */
+section, .card {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+/* Section Colors */
+.section1 { background-color: #ffffff; }       /* About Me */
+.section2 { background-color: #c0e0ff; }       /* Projects */
+.section3 { background-color: #ffc0cb; }       /* Contact */
+
+/* Card for projects */
+.card {
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
-/* Headings with lilac accent border */
+/* Headings */
 h2 {
   text-align: center;
-  color: #222;
   margin-bottom: 20px;
   font-weight: 600;
-  border-bottom: 3px solid #c8a2c8; /* soft lilac border */
   padding-bottom: 10px;
 }
 
+.section1 h2 { color: #c8a2c8; border-bottom: 3px solid #c8a2c8; }
+.section2 h2 { color: #222; border-bottom: 3px solid #6aa6ff; }
+.section3 h2 { color: #222; border-bottom: 3px solid #ff8aa0; }
+
 /* Paragraphs */
-p {
-  color: #555;
-  line-height: 1.7;
-  font-size: 16px;
-}
+p { color: #555; line-height: 1.7; font-size: 16px; text-align: center; }
+ul { list-style: none; padding: 0; margin-top: 15px; }
+li { margin: 10px 0; text-align: center; }
 
 /* Links / Buttons */
-a, .btn {
-  color: #c8a2c8; /* lilac accent */
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover, .btn:hover {
-  color: #a67bbf; /* slightly darker lilac for hover */
-}
+a, .btn { color: #c8a2c8; font-weight: 500; text-decoration: none; }
+a:hover, .btn:hover { color: #a67bbf; }
 
 /* Footer */
 footer {
   background-color: #ffffff;
-  color: #666;
-  padding: 25px;
+  color: #555;
   text-align: center;
+  padding: 30px;
+  margin-top: 50px;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+  font-size: 14px;
 }
-
