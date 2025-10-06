@@ -1,91 +1,60 @@
-/* 🌞 Clean and Professional Portfolio Design - Light Theme */
-
+/* Body */
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #fcfcfc; /* soft off-white */
+  background-color: #fcfcfc; /* soft light */
   color: #444; /* dark gray text */
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #ffffff; /* white header */
-  color: #222; /* heading color */
-  text-align: center;
-  padding: 60px 20px;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05); /* soft shadow */
-}
-
-header h1 {
-  font-size: 38px;
-  margin: 0;
-}
-
-header p {
-  font-size: 18px;
-  color: #555; /* softer gray for subheading */
-  margin-top: 10px;
-}
-
-section {
-  margin: 50px auto;
-  max-width: 800px;
-  background: #ffffff; /* white sections/cards */
+/* Sections / Cards */
+section, .card {
+  background-color: #ffffff; /* white sections/cards */
   padding: 40px;
   border-radius: 14px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08); /* soft shadow */
+  box-shadow: 0 6px 25px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-section:hover {
+section:hover, .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); /* soft hover shadow */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
+/* Headings with lilac accent border */
 h2 {
   text-align: center;
-  color: #222; /* heading visible on light background */
+  color: #222;
   margin-bottom: 20px;
   font-weight: 600;
-  border-bottom: 3px solid #cce0ff; /* soft light blue, noticeable but gentle */
+  border-bottom: 3px solid #c8a2c8; /* soft lilac border */
   padding-bottom: 10px;
 }
 
+/* Paragraphs */
 p {
-  color: #555; /* paragraph text softer than black */
+  color: #555;
   line-height: 1.7;
   font-size: 16px;
-  text-align: center;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 15px;
-}
-
-li {
-  margin: 15px 0;
-}
-
-li a {
-  color: #1a73e8; /* soft blue links */
-  font-weight: 500;
+/* Links / Buttons */
+a, .btn {
+  color: #c8a2c8; /* lilac accent */
   text-decoration: none;
-  font-size: 17px;
+  font-weight: 500;
 }
 
-li a:hover {
-  color: #ff9800; /* gentle hover highlight */
+a:hover, .btn:hover {
+  color: #a67bbf; /* slightly darker lilac for hover */
 }
 
+/* Footer */
 footer {
-  text-align: center;
+  background-color: #ffffff;
+  color: #666;
   padding: 25px;
-  background-color: #ffffff; /* white footer */
-  color: #666; /* soft gray */
-  margin-top: 50px;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
 }
+
