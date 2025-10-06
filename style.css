@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 /* 🌸 General page setup */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background: #f9fafb;
+=======
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+>>>>>>> 31abb4e0d244f9ec263aac13159b9ff0027430da
   color: #333;
   line-height: 1.6;
 }
 
+<<<<<<< HEAD
 /* 💜 Header section */
 header {
   text-align: center;
@@ -21,10 +31,24 @@ header h1 {
   margin: 0;
   font-size: 2.8em;
   font-weight: 600;
+=======
+/* Header */
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+>>>>>>> 31abb4e0d244f9ec263aac13159b9ff0027430da
 }
 
 header p {
   font-size: 1.2em;
+<<<<<<< HEAD
   opacity: 0.9;
 }
 
@@ -113,3 +137,53 @@ footer {
   color: #6a11cb;
   font-weight: 600;
 }
+=======
+  margin-top: 8px;
+  color: #bbb;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Projects */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+#projects a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+#projects a:hover {
+  color: #005599;
+}
+
+/* Contact */
+#contact p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+
+>>>>>>> 31abb4e0d244f9ec263aac13159b9ff0027430da
